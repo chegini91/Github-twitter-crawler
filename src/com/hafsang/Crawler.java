@@ -29,8 +29,8 @@ public class Crawler {
 	PrintWriter gephiWriter;
 	// if you want to crawle more users just change the numOfTwitter and
 	// numOfGitHub
-	final int numOfTwitter = 0;
-	final int numOfGitHub = 2;
+	final int numOfTwitter = 200;
+	final int numOfGitHub = 200;
 	int exceptionCount = 0;
 	// githubaccounts sid
 	final String[] gitHubAccounts = { "/josh", "/digitalcraftstudios", "/JoshuaGross" };
